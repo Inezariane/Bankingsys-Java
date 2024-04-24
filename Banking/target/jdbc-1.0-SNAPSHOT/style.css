@@ -1,0 +1,40 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Content styles */
+span {
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: #1ac957; /* Blue color */
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+a:hover {
+    color: #1ac957; /* Dark blue color on hover */
+}

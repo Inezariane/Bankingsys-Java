@@ -1,0 +1,53 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Align items at the start and end */
+    align-items: center; /* Center vertically */
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Navigation styles */
+.navigation {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+
+.nav-links li {
+    margin-left: 10px; /* Add margin between list items */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #136717;
+}
